@@ -10,9 +10,9 @@
 }
 
 body {
-  /* color: white; */
-  /* background-color: #285207; */
-  /* background-image: url("felt.png"); */
+  color: white;
+  background-color: #285207;
+  background-image: url("felt.png");
 }
 
 nav {
@@ -26,8 +26,8 @@ nav {
   padding: 1rem;
   z-index: 99;
   background-color: white;
-  /* background-color: #150c00; */
-  /* background-image: url("dark-wood.png"); */
+  background-color: #150c00;
+  background-image: url("dark-wood.png");
   box-shadow: 0.5px 0.5px 1px gray;
   animation: fadeDown 1s;
 }
@@ -103,7 +103,7 @@ img {
 
 .hero {
   display: flex;
-  width: 40ch;
+  max-width: 40ch;
   margin: auto;
   margin-bottom: 2rem;
   align-items: center;
@@ -127,13 +127,13 @@ ul {
   display: flex;
   flex-direction: column;
   gap: 1rem;
-  width: 50ch;
+  max-width: 50ch;
   margin: auto;
 }
 
 nav a {
   text-transform: uppercase;
-  /* color: black; */
+  color: white;
 }
 
 a {
