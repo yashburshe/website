@@ -1,4 +1,3 @@
-import ProjectShowcase from "./components/ProjectShowcase";
 import WebResume from "./components/WebResume";
 import { inter } from "./fonts";
 
