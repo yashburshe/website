@@ -32,9 +32,9 @@ export default function WebResume() {
   ];
 
   return (
-    <div className="px-[20px] flex flex-col gap-6 max-w-2xl mx-auto text-stone-700">
+    <div className="px-[20px] flex flex-col gap-6 max-w-2xl mx-auto text-stone-700 dark:text-stone-300">
       <div>
-        <h2 className="text-stone-800 font-light text-lg my-[10px] border-b border-stone-300/50">
+        <h2 className="text-stone-800 dark:text-stone-200 font-light text-lg my-[10px] border-b border-stone-300/50 dark:border-stone-700/50">
           Education
         </h2>
         <ul className="flex flex-col gap-2">
@@ -53,7 +53,7 @@ export default function WebResume() {
         </ul>
       </div>
       <div>
-        <h2 className="text-stone-800 font-light text-lg my-[10px] border-b border-stone-300/80">
+        <h2 className="text-stone-800 dark:text-stone-200 font-light text-lg my-[10px] border-b border-stone-300/80 dark:border-stone-700/80">
           Work
         </h2>
         <ul className="flex flex-col gap-2">

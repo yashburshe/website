@@ -10,9 +10,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className="min-h-dvh ">
-        <Banner/>
-        <Header />
+      <body className="min-h-dvh">
+        {/* <Banner/> */}
+        {/* <Header /> */}
         <div>
           {children}
           <Footer />

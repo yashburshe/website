@@ -6,9 +6,9 @@ export default function Footer() {
       <p>
         Made with <Link className="underline" href="https://nextjs.com" target="_blank">Next.js</Link>
       </p>
-      <p>
+      {/* <p>
         Layout inspired by the <Link className="underline" href="https://store.google.com/?hl=en-US" target="_blank">Google Store</Link>
-      </p>
+      </p> */}
     </footer>
   );
 }
