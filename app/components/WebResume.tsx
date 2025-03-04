@@ -28,13 +28,13 @@ export default function WebResume() {
       degree:
         "Bachelor of Technology in Computer Science and Engineering (Cybersecurity)",
       date: "Aug '20 - Aug '24",
-    },
+    }
   ];
 
   return (
-    <div className="px-[20px] flex flex-col gap-6 max-w-2xl mx-auto text-stone-700 dark:text-stone-300">
+    <div className="px-[20px] flex flex-col gap-6 max-w-2xl mx-auto text-slate-300">
       <div>
-        <h2 className="text-stone-800 dark:text-stone-200 font-light text-lg my-[10px] border-b border-stone-300/50 dark:border-stone-700/50">
+        <h2 className="text-slate-200 font-light text-lg my-[10px] border-b border-slate-700/50">
           Education
         </h2>
         <ul className="flex flex-col gap-2">
@@ -47,13 +47,13 @@ export default function WebResume() {
                 <h3>{university}</h3>
                 <p className="text-sm max-w-80">{degree}</p>
               </div>
-              <p className="text-sm text-stone-500">{date}</p>
+              <p className="text-sm text-slate-500">{date}</p>
             </li>
           ))}
         </ul>
       </div>
       <div>
-        <h2 className="text-stone-800 dark:text-stone-200 font-light text-lg my-[10px] border-b border-stone-300/80 dark:border-stone-700/80">
+        <h2 className="text-slate-200 font-light text-lg my-[10px] border-b border-slate-700/80">
           Work
         </h2>
         <ul className="flex flex-col gap-2">
@@ -66,7 +66,7 @@ export default function WebResume() {
                 <h3>{title}</h3>
                 <p className="text-sm">{company}</p>
               </div>
-              <p className="text-sm text-stone-500">{date}</p>
+              <p className="text-sm text-slate-500">{date}</p>
             </li>
           ))}
         </ul>
